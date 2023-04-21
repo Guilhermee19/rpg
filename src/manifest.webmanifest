@@ -1,8 +1,8 @@
 {
-  "name": "rpg-web",
-  "short_name": "web-bp",
-  "theme_color": "#1976d2",
-  "background_color": "#fafafa",
+  "name": "Fixa D&D",
+  "short_name": "Fixa D&D",
+  "theme_color": "#191919",
+  "background_color": "#191919",
   "display": "standalone",
   "scope": "./",
   "start_url": "./",

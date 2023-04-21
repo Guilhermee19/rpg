@@ -3,16 +3,19 @@ main {
   margin: 0 auto;
   display: flex;
   flex-direction: column;
-  gap: 30px;
+  gap: 20px;
 
   header {
-    width: 100%;
+    width: 90%;
+    max-width: 800px;
+    margin: 0 auto;
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 20px;
 
     figure {
-      width: 80px;
+      width: 80%;
 
       img {
         width: 100%;
@@ -22,6 +25,9 @@ main {
   }
 
   section {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
     display: flex;
     justify-content: space-between;
     gap: 10px;
@@ -42,15 +48,13 @@ main {
     }
 
     &#characterTraits {
-      width: 80px;
       display: flex;
       flex-direction: column;
 
       .card_input {
-        width: 100%;
+        width: 80px;
 
         label {
-          font-size: 0.6rem !important;
           padding-left: 0px;
           text-align: center !important;
         }
