@@ -1,0 +1,63 @@
+main {
+  width: 95%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+
+  header {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    figure {
+      width: 80px;
+
+      img {
+        width: 100%;
+        object-fit: contain;
+      }
+    }
+  }
+
+  section {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    flex-wrap: wrap;
+
+    .card_input {
+      width: calc(33% - 6px);
+
+      &.top {
+        &:nth-child(1) {
+          width: calc(70% - 10px);
+        }
+
+        &:nth-child(2) {
+          width: 30%;
+        }
+      }
+    }
+
+    &#characterTraits {
+      width: 80px;
+      display: flex;
+      flex-direction: column;
+
+      .card_input {
+        width: 100%;
+
+        label {
+          font-size: 0.6rem !important;
+          padding-left: 0px;
+          text-align: center !important;
+        }
+        input {
+          text-align: center !important;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,106 @@
+<main>
+  <header>
+    <figure>
+      <img src="../../../assets/images/logo-DnD.jpg" alt="" />
+    </figure>
+    <h1>D&D- rpg</h1>
+  </header>
+
+  <section>
+    <div class="card_input top">
+      <label> Nome do personagem </label>
+      <input title="name" matInput [(ngModel)]="character.characterName" />
+    </div>
+
+    <div class="card_input top">
+      <label> Pontos de exp. </label>
+      <input title="name" matInput [(ngModel)]="character.experiencePoints" />
+    </div>
+
+    <div class="card_input">
+      <label> Classe </label>
+      <input title="name" matInput [(ngModel)]="character.class" />
+    </div>
+
+    <div class="card_input">
+      <label> Nivel </label>
+      <input title="name" matInput [(ngModel)]="character.level" />
+    </div>
+
+    <div class="card_input">
+      <label> Antecedente </label>
+      <input title="name" matInput [(ngModel)]="character.antecedent" />
+    </div>
+
+    <div class="card_input">
+      <label> Nome do Player </label>
+      <input title="name" matInput [(ngModel)]="character.player" />
+    </div>
+
+    <div class="card_input">
+      <label> Raça </label>
+      <input title="name" matInput [(ngModel)]="character.race" />
+    </div>
+
+    <div class="card_input">
+      <label> Tendência </label>
+      <input title="name" matInput [(ngModel)]="character.tendency" />
+    </div>
+  </section>
+
+  <section id="characterTraits">
+    <div class="card_input w_100">
+      <label> Força </label>
+      <input
+        title="name"
+        matInput
+        [(ngModel)]="character.characterTraits.force.number"
+      />
+    </div>
+
+    <div class="card_input w_100">
+      <label> Destreza </label>
+      <input
+        title="name"
+        matInput
+        [(ngModel)]="character.characterTraits.dexterity.number"
+      />
+    </div>
+
+    <div class="card_input w_100">
+      <label> Constituição </label>
+      <input
+        title="name"
+        matInput
+        [(ngModel)]="character.characterTraits.constitution.number"
+      />
+    </div>
+
+    <div class="card_input w_100">
+      <label> Inteligência </label>
+      <input
+        title="name"
+        matInput
+        [(ngModel)]="character.characterTraits.intelligence.number"
+      />
+    </div>
+
+    <div class="card_input w_100">
+      <label> Sabedoria </label>
+      <input
+        title="name"
+        matInput
+        [(ngModel)]="character.characterTraits.wisdom.number"
+      />
+    </div>
+
+    <div class="card_input w_100">
+      <label> Carisma </label>
+      <input
+        title="name"
+        matInput
+        [(ngModel)]="character.characterTraits.charisma.number"
+      />
+    </div>
+  </section>
+</main>
